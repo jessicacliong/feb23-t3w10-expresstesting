@@ -28,7 +28,7 @@ describe("POST to root route copies message in request body", () => {
           });
 
           expect(response.body.received).toEqual(messageToSend);
-          expect(response.statusCode).toEqual(202);
+          expect(response.statusCode).toEqual(200);
 
      });
 });
